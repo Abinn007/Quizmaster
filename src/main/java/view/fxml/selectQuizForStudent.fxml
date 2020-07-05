@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SelectQuizForStudentController">
+    <Label layoutX="14.0" layoutY="14.0" text="Kies een quiz">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Label>
+    <ListView fx:id="quizList" layoutX="14.0" layoutY="60.0" prefHeight="200.0" prefWidth="400.0" />
+    <Button layoutX="14.0" layoutY="287.0" mnemonicParsing="false" onAction="#doMenu" text="Menu">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Button>
+    <Button layoutX="92.0" layoutY="287.0" mnemonicParsing="false" onAction="#doQuiz" text="Doe quiz">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Button>
+    <Label fx:id="aantalVragenTitel" layoutX="450" layoutY="68" prefWidth="150" textFill="#000000bc" />
+    <Label fx:id="aantalVragenLabel" layoutX="450" layoutY="86" prefWidth="200" textFill="#000000bc" />
+    <Label fx:id="laatstePogingTitel" layoutX="450" layoutY="118" prefWidth="150" textFill="#000000bc" />
+    <Label fx:id="laatstePogingLabel" layoutX="450" layoutY="136" prefWidth="200" textFill="#000000bc" />
+    <Label fx:id="resultaatTitel" layoutX="450" layoutY="168" prefWidth="150" textFill="#000000bc" />
+    <Label fx:id="resultaatLabel" layoutX="450" layoutY="186" prefWidth="200" textFill="#000000bc" />
+    <Label fx:id="noQuizzes" layoutX="120.0" layoutY="143.0" text="" textFill="#0000005c">
+    <font>
+        <Font size="14.0" />
+    </font>
+    </Label>
+
+</AnchorPane>

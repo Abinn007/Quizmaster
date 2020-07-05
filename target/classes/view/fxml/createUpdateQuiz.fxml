@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CreateUpdateQuizController">
+    <children>
+        <Label fx:id="titleLabel" layoutX="347.0" layoutY="76.0" text="Nieuwe Quiz" textAlignment="CENTER">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <GridPane layoutX="117.0" layoutY="175.0" prefHeight="158.0" prefWidth="422.0">
+            <columnConstraints>
+                <ColumnConstraints />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="195.0" minWidth="10.0" prefWidth="195.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="223.0" minWidth="10.0" prefWidth="223.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="89.0" minHeight="10.0" prefHeight="38.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="67.0" minHeight="10.0" prefHeight="44.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="79.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="80.0" minHeight="10.0" prefHeight="41.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Label text="Naam quiz" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+                    <GridPane.margin>
+                        <Insets right="5.0" />
+                    </GridPane.margin></Label>
+                <Label text="Cesuur" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+                    <GridPane.margin>
+                        <Insets right="5.0" />
+                    </GridPane.margin></Label>
+                <TextField fx:id="naamTextfield" prefWidth="223.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                <TextField fx:id="cesuurTextfield" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                <Label text="ID quiz" GridPane.columnIndex="1" GridPane.halignment="RIGHT">
+                    <GridPane.margin>
+                        <Insets right="5.0" />
+                    </GridPane.margin>
+                </Label>
+                <TextField fx:id="idQuizTextfield" disable="true" editable="false" prefHeight="29.0" prefWidth="249.0" text="Automatisch gegenereerd" GridPane.columnIndex="2" />
+            <Label text="ID Cursus" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets right="5.0" />
+               </GridPane.margin>
+            </Label>
+            <MenuButton fx:id="selectButton" mnemonicParsing="false" prefHeight="27.0" prefWidth="165.0" text="Selecteer een cursus" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="0.0" />
+               </GridPane.margin>
+            </MenuButton>
+            </children>
+        </GridPane>
+        <Button fx:id="saveButton" layoutX="313.0" layoutY="359.0" mnemonicParsing="false" onAction="#doStore" text="Opslaan" />
+        <Button fx:id="beheerschermButton" layoutX="388.0" layoutY="359.0" mnemonicParsing="false" onAction="#doBack" text="Terug" />
+        <Button fx:id="menuButton" layoutX="450.0" layoutY="359.0" mnemonicParsing="false" onAction="#doBackToMenu" text="Menu" />
+    </children>
+</AnchorPane>

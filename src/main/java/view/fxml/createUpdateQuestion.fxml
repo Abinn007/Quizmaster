@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CreateUpdateQuestionController">
+        <Label fx:id="titleLabel" layoutX="328.0" layoutY="45.0" text="Nieuwe Vraag &amp; Antwoorden" textAlignment="CENTER">
+                <font>
+                        <Font size="18.0" />
+                </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="161.0" text="Vraag" />
+        <TextField fx:id="vraagTextTextfield" layoutX="95.0" layoutY="181.0" prefWidth="300.0" />
+        <Label layoutX="95.0" layoutY="107.0" text="ID Vraag" GridPane.columnIndex="1" GridPane.halignment="RIGHT">
+
+        </Label>
+        <TextField fx:id="vraagIDTextfield" disable="true" editable="false" layoutX="95.0" layoutY="126.0" prefHeight="29.0" prefWidth="300.0" text="Automatisch gegenereerd" GridPane.columnIndex="2" />
+        <Label layoutX="95.0" layoutY="216.0" text="Quiz">
+
+        </Label>
+        <MenuButton fx:id="quizMenuButton" layoutX="95.0" layoutY="236.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="300.0" text="Selecteer een quiz" GridPane.columnIndex="2" GridPane.rowIndex="2">
+
+        </MenuButton>
+        <Label layoutX="470.0" layoutY="107.0" text="Antwoord 1 (Correct)" />
+        <TextField fx:id="antwoordEen" layoutX="470.0" layoutY="127.0" prefWidth="300" />
+        <Label layoutX="470.0" layoutY="161.0" text="Antwoord 2" />
+        <TextField fx:id="antwoordTwee" layoutX="470.0" layoutY="181.0" prefWidth="300" />
+        <Label layoutX="470.0" layoutY="221.0" text="Antwoord 3" />
+        <TextField fx:id="antwoordDrie" layoutX="470.0" layoutY="241.0" prefWidth="300" />
+        <Label layoutX="470.0" layoutY="278.0" text="Antwoord 4" />
+        <TextField fx:id="antwoordVier" layoutX="470.0" layoutY="298.0" prefWidth="300" />
+
+        <Button fx:id="saveButton" layoutX="337.0" layoutY="380.0" mnemonicParsing="false" onAction="#doStore" text="Opslaan" />
+        <Button fx:id="lijstButton" layoutX="412.0" layoutY="380.0" mnemonicParsing="false" onAction="#doBack" text="Terug" />
+        <Button fx:id="menuButton" layoutX="474.0" layoutY="380.0" mnemonicParsing="false" onAction="#doBackToMenu" text="Menu" />
+</AnchorPane>

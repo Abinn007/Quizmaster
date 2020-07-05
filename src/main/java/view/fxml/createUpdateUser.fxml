@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CreateUpdateUserController">
+        <children>
+            <Label fx:id="titleLabel" layoutX="367.0" layoutY="67.0" text="Nieuwe Gebruiker" textAlignment="CENTER">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Label>
+            <GridPane layoutX="117.0" layoutY="165.0" prefHeight="164.0" prefWidth="421.0">
+                <columnConstraints>
+                    <ColumnConstraints />
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="195.0" minWidth="10.0" prefWidth="194.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="224.0" minWidth="10.0" prefWidth="224.0" />
+                </columnConstraints>
+                <rowConstraints>
+                    <RowConstraints maxHeight="34.0" minHeight="10.0" prefHeight="31.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="45.0" minHeight="10.0" prefHeight="41.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="44.0" minHeight="10.0" prefHeight="42.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="34.0" vgrow="SOMETIMES" />
+                </rowConstraints>
+                <children>
+                    <Label text="Gebruikersnaam" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+                        <GridPane.margin>
+                            <Insets right="5.0" />
+                        </GridPane.margin></Label>
+                    <Label text="Wachtwoord" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+                        <GridPane.margin>
+                            <Insets right="5.0" />
+                        </GridPane.margin></Label>
+                    <TextField fx:id="naamTextfield" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                    <TextField fx:id="wachtwoordTextfield" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                    <Label text="ID User" GridPane.columnIndex="1" GridPane.halignment="RIGHT">
+                        <GridPane.margin>
+                            <Insets right="5.0" />
+                        </GridPane.margin>
+                    </Label>
+                    <TextField fx:id="idUser" disable="true" editable="false" prefHeight="29.0" prefWidth="249.0" text="Automatisch gegenereerd" GridPane.columnIndex="2" />
+                    <Label text="Rol" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
+                        <GridPane.margin>
+                            <Insets right="5.0" />
+                        </GridPane.margin>
+                    </Label>
+                    <MenuButton fx:id="rolButton" mnemonicParsing="false" prefHeight="27.0" prefWidth="168.0" text="" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                        <GridPane.margin>
+                            <Insets left="0.0" />
+                        </GridPane.margin>
+                    </MenuButton>
+                </children>
+            </GridPane>
+            <Button fx:id="saveButton" layoutX="313.0" layoutY="359.0" mnemonicParsing="false" onAction="#doStore" text="Opslaan" />
+            <Button fx:id="beheerschermButton" layoutX="391.0" layoutY="359.0" mnemonicParsing="false" onAction="#doBackToManageUsers" text="Terug" />
+            <Button fx:id="menuButton" layoutX="455.0" layoutY="359.0" mnemonicParsing="false" onAction="#doBackToMenu" text="Menu" />
+              <Button fx:id="generateButton" layoutX="545.0" layoutY="252.0" onAction="#generatePass" text="Genereer" />
+        </children>
+</AnchorPane>
