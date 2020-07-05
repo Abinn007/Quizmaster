@@ -11,7 +11,6 @@ import java.util.ArrayList;
  * DAO voor een tussentabel van Courses en Users
  * Hierin wordt opgeslagen in welke Courses Users (studenten) ingeschreven staan
  *
- * @author Wesley Wong
  */
 
 public class CourseRegistrationDAO extends AbstractDAO{

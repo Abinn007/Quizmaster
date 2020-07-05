@@ -12,7 +12,7 @@ import model.User;
 import view.Main;
 
 /**
- * @author lisa kemeling
+ *
  * class regelt connectie tussen object Course, view CreateUpdateCourse en database
  */
 

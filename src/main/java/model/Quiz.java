@@ -3,7 +3,6 @@ package model;
 import java.util.Objects;
 
 /**
- * @author lisa
  * class voor aanmaken van een Quiz object
  */
 

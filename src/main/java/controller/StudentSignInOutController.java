@@ -13,8 +13,6 @@ import view.Main;
 
 /**
  * In deze StudentSignInOutController kan een student zich aan- of afmelden voor een cursus
- *
- * @author Wesley Wong
  */
 public class StudentSignInOutController {
 

@@ -2,7 +2,6 @@ package model;
 
 /**
  *
- * @author Wesley Wong
  */
 
 public class Role {

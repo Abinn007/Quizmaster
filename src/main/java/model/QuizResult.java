@@ -5,7 +5,6 @@ import java.util.Date;
 /**
  * QuizResult houdt de resultaten bij van studenten die een quiz maken
  *
- * @author Wesley Wong
  */
 
 public class QuizResult{

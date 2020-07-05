@@ -9,7 +9,6 @@ import model.*;
 
  * Deze DAO creert CRUD functionaliteit voor model.User
  *
- * @author Wesley Wong
  */
 
 @SuppressWarnings("ALL")

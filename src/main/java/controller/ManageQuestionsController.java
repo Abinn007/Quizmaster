@@ -1,20 +1,13 @@
 package controller;
-/**
- * @author Carolina Lira del Alto
- */
 import database.mysql.*;
-import javafx.event.ActionEvent;
+
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
-import model.Answer;
 import model.Course;
 import model.Question;
 import model.Quiz;
 import view.Main;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
 
 public class ManageQuestionsController {
     public static final String VRAAG_BEVESTIGING = "Weet je zeker dat je deze vraag wil verwijderen?";

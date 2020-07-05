@@ -5,7 +5,6 @@ import java.util.Objects;
 
 /**
  * Deze class is group van een aantal studenten die een bepaalde cursus volgt.
- * @author HRGautam
  */
 
 public class Group {

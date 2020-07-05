@@ -5,7 +5,6 @@ import model.*;
 /**
  * Deze DAO is voor de Role tabel dat idRol linked aan een naam
  *
- * @author Wesley Wong
  */
 public class RoleDAO extends AbstractDAO {
     public RoleDAO(DBAccess dBaccess) {

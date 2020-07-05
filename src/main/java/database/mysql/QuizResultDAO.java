@@ -8,8 +8,6 @@ import java.util.ArrayList;
 
 /**
  * Deze DAO creert CRUD functionaliteit voor QuizResult
- *
- * @author Wesley Wong
  */
 
 

@@ -1,7 +1,5 @@
 package model;
-/**
- * @author Carolina Lira del Alto
- */
+
 public class Question {
     private int idQuestion;
     private String textQuestion;

@@ -6,8 +6,6 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import model.User;
 
-import java.util.List;
-
 public class UserCouchDBDAO {
 	
 	private CouchDBaccess db;

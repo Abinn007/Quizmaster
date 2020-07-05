@@ -9,8 +9,7 @@ import java.util.List;
 
 
 /**
- * * Deze CouchDB DAO class is om data's te wegschrijven naar CouchDB database en terughalen van database.
- * @author HRGautam
+ * Deze CouchDB DAO class is om data's te wegschrijven naar CouchDB database en terughalen van database.
  */
 
 

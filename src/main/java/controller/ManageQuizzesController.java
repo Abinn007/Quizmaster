@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * @author lisa kemeling
+ *
  * Dit is de controller voor handelingen op het Quiz berheerscherm- managerQuizzesController
  */
 public class ManageQuizzesController {

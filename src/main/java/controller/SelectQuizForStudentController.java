@@ -15,8 +15,6 @@ import java.util.ArrayList;
 /**
  * Hier kan de student een quiz kiezen om te maken
  * Daarbij laat het de laatste poging met datum, tijd en resultaat zien van de gebruiker
- *
- * @author Wesley Wong
  */
 
 public class SelectQuizForStudentController {

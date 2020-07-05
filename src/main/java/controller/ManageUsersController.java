@@ -14,7 +14,6 @@ import view.Main;
 /**
  * Beheer voor alle Users. Te gebruiken door de Technisch Beheerder
  *
- * @author Wesley Wong
  */
 public class ManageUsersController {
 

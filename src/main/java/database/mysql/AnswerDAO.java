@@ -1,7 +1,5 @@
 package database.mysql;
-/**
- * @author Carolina Lira del Alto
- */
+
 import model.Answer;
 import model.Question;
 import java.sql.PreparedStatement;

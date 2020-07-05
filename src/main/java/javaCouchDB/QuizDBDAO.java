@@ -7,7 +7,6 @@ import com.google.gson.JsonParser;
 import model.Quiz;
 
 /**
-  *@author lisa kemeling
   *Database Acces Object voor een Quiz om in CouchDB op te slaan, te updaten en verwijderen.
 **/
 

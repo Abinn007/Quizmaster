@@ -8,7 +8,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 /**
- * @author lisa Kemeling
  * class voor ophalen, insert, update en delete gegevens uit database Quizmaster tabel Course
  */
 

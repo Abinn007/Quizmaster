@@ -20,7 +20,7 @@ import java.util.Optional;
  * In deze klasse kan de student een quiz maken.
  * Daarbij wordt bijgehouden hoeveel vragen er correct en slaat het deze op in QuizResult
  *
- * @author Wesley Wong
+ *
  */
 
 public class FillOutQuizController {

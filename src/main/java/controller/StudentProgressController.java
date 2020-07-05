@@ -14,8 +14,6 @@ import view.Main;
 
 /**
  * De voortgang van een student kan bijgehouden worden in de studentProgress view
- *
- * @author Wesley Wong
  */
 
 public class StudentProgressController {

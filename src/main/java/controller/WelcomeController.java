@@ -7,7 +7,6 @@ import view.Main;
 /**
  * Dit scherm komt na het inloggen en geeft de taken weer aan de hand van rol gebruiker.
  *
- * @author WesleyWong
  */
 
 public class WelcomeController {

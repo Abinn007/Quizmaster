@@ -7,14 +7,6 @@ import javaCouchDB.GroupCouchDBDAO;
 import model.Group;
 import view.Main;
 
-import java.util.ArrayList;
-
-
-/**
- * @author HRGautam
- */
-
-
 
 public class CouchDBGroupLauncher {
 

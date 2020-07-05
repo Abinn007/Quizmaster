@@ -5,7 +5,6 @@ import controller.SessionController;
 import java.util.Objects;
 
 /**
- * @author lisa kemeling
  * class maakt een Course object
  */
 

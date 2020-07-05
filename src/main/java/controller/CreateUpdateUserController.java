@@ -16,7 +16,7 @@ import java.util.regex.Pattern;
  * In deze klasse kan de Technisch Beheerder gebruikers aanmaken, wijzigen en verwijderen
  * Als extra feature bevat het een wachtwoord generator en kan alleen de huidige gebruiker zijn wachtwoord zien
  *
- * @author Wesley Wong
+ *
  */
 
 public class CreateUpdateUserController {

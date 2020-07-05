@@ -8,7 +8,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 /**
  * Deze DAO class is om data's weg te schrijven naar SQL database en terughalen vanuit database.
- * @author HRGautam
  */
 public class GroupDAO extends AbstractDAO implements GenericDAO<Group> {
 

@@ -9,8 +9,6 @@ import java.util.Objects;
 /**
  *
  * Met de model.User worden de gebruikers van Quizmaster aangemaakt.
- *
- * @author Wesley Wong
  */
 
 public class User {

@@ -9,7 +9,7 @@ import java.util.List;
 
 
 /**
- * @author HRGautam
+ *
  * Deze controller bevat beheer functie voor groep
  */
 

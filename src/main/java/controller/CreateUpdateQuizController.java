@@ -11,7 +11,7 @@ import model.Quiz;
 import view.Main;
 
 /**
- * @author lisa kemeling
+ *
  * class regelt connectie tussen object Quiz, view CreateUpdateQuiz en database
  */
 

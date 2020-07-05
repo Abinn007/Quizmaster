@@ -11,13 +11,6 @@ import java.util.ArrayList;
 
 
 
-/**
- * @author Wesley wong
- */
-
-
-
-
 public class CouchDBUserLauncher {
 	
 

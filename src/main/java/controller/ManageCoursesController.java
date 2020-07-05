@@ -5,17 +5,14 @@ import database.mysql.DBAccess;
 import database.mysql.GroupDAO;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Alert;
-import javafx.scene.control.ButtonType;
 import javafx.scene.control.ListView;
 import model.Course;
 import model.Group;
 import view.Main;
 
-
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
+
 
 public class ManageCoursesController {
     public static final String VRAAG_BEVESTIGING = "Weet je zeker dat je deze cursus wil verwijderen?";

@@ -11,11 +11,6 @@ import view.Main;
 import java.util.List;
 
 
-/**
- * @author lisa kemeling
- */
-
-
 public class CouchDBQuizLauncher {
     private CouchDBaccess couchDBaccess;
     private QuizDBDAO quizDBDAO;

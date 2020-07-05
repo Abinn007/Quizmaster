@@ -1,7 +1,5 @@
 package controller;
-/**
- * @author Carolina Lira del Alto
- */
+
 import database.mysql.*;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

@@ -11,7 +11,7 @@ import view.Main;
 import java.util.ArrayList;
 
 /**
- * @author HRGautam
+ *
  * Deze controller bevat CRUD functie voor groep
  */
 

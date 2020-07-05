@@ -12,7 +12,6 @@ import view.Main;
  * Dit is de loginscherm van Quizmaster.
  * Dit scherm checkt of alle velden (correct) ingevuld zijn.
 
- * @author Wesley Wong
  */
 
 public class LoginController {
